@@ -414,7 +414,7 @@ a:hover {
 .active, 
 .header .nav-link:hover, 
 .header .nav-link:active {
-	color: #dc3545;
+	color: #dc3545 !important;
 }
 
 .nav-link.arrow-element::after {
@@ -464,6 +464,9 @@ a:hover {
 
 #blog-header {
 	height: 640px;
+    background-image: url(../img/main-bg.jpg);
+    background-size: cover;
+    background-position: center 75%;
 }
 
 .nav-li-float-left {
