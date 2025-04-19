@@ -1541,7 +1541,6 @@ footer {
 	}
 
 	.footer::after {
-		background-image: url(../img/footer-lg-bg.png);
 		height: 595px;
 	}
 
